@@ -1,7 +1,9 @@
 ---
 title: "Lab11"
 author: "Michelle Hernandez"
-format: html
+format:
+  html:
+    embed-resources: true
 editor: visual
 ---
 
@@ -11,19 +13,6 @@ library(ggplot2)
 library(tidytext)
 library(readr)
 library(dplyr)
-
-```
-
-```{r}
-eval=TRUE
-
-cd ~/Documents
-mkdir lab11
-cd lab11
-
-# Step 2
-wget https://raw.githubusercontent.com/USCbiostats/PM566/master/website/content/assignment/11-lab.Rmd
-
 
 ```
 
